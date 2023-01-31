@@ -16,9 +16,9 @@ post_install do |installer| \
     &nbsp;&nbsp;flutter_additional_ios_build_settings(target) \
     &nbsp;target.build_configurations.each do |config| \
       &nbsp;config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '(input your target ex: 13,0)' \
-     &nbsp;end \
-  &nbsp;end \
-&nbsp;end
+        end \
+     end \
+  end
 
 # Command For build project flutter 
 1. Build for Android 
@@ -35,6 +35,6 @@ post_install do |installer| \
  # case xcode version not found
     Error "cannnot find "xcodebuild""
    xcode must set version can used 
-   go to Xcode->preferences->locations->set value for command Line tools.
+   go to Xcode->preferences->locations-> set value for command Line tools
 
 

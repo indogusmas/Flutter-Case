@@ -31,5 +31,10 @@ post_install do |installer| \
  Case above because method not excute / use in method main. Flutter use metode tree shake.For solution case  add command 
  "--no-tree-shake-icons" 
  when build flutter  
+ 
+ # case xcode version not found
+    Error "cannnot find "xcodebuild""
+   xcode must set version can used 
+   go to Xcode->preferences->locations->set value for command Line tools.
 
 

@@ -26,6 +26,8 @@ post_install do |installer| \
 
 2. Build For IOS
     flutter build ios --release
+3. Build For Ipa File IOS
+    flutter build ipa --releease
     
 # case error   --no-tree-shake-icons for build IOS
  Case above because method not excute / use in method main. Flutter use metode tree shake.For solution case  add command 

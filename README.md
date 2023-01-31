@@ -12,13 +12,13 @@ Flutter Case
 # Setup target iphone via pod file
 
 post_install do |installer| \
-  installer.pods_project.targets.each do |target| \
-    flutter_additional_ios_build_settings(target) \
-    target.build_configurations.each do |config| \
-      config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '(input your target ex: 13,0)' \
-     end \
-  end \
-end
+&nbsp;installer.pods_project.targets.each do |target| \
+    &nbsp;&nbsp;flutter_additional_ios_build_settings(target) \
+    &nbsp;target.build_configurations.each do |config| \
+      &nbsp;config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '(input your target ex: 13,0)' \
+     &nbsp;end \
+  &nbsp;end \
+&nbsp;end
 
 # Command For build project flutter 
 1. Build for Android 

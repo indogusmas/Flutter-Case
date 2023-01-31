@@ -18,7 +18,7 @@ post_install do |installer| \
       config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '(input your target ex: 13,0)' \
      end \
   end \
-end \
+end
 
 # Command For build project flutter 
 1. Build for Android 
